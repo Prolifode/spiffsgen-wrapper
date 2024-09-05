@@ -1,6 +1,6 @@
 # SPIFFS Generation Wrapper
 
-A TypeScript wrapper for generating and unpacking SPIFFS images using `spiffsgen.py`.
+A TypeScript wrapper for generating and unpacking SPIFFS images using [spiffsgen.py](https://github.com/espressif/esp-idf/blob/v5.3.1/components/spiffs/spiffsgen.py)
 
 ## Table of Contents
 
@@ -82,4 +82,4 @@ const options = {
 
 ## License
 
-This project is licensed under the [MIT]() License
+This project is licensed under the [MIT](https://github.com/Prolifode/spiffsgen-wrapper/blob/main/LICENSE) License
