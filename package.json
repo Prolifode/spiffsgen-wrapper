@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prolifode/spiffsgen-wrapper"
+    "url": "git+https://github.com/Prolifode/spiffsgen-wrapper.git"
   },
   "files": [
     "dist/",
