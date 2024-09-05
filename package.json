@@ -1,0 +1,43 @@
+{
+  "name": "@prolifode/spiffsgen-wrapper",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for ESP-IDF spiffsgen.py",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prolifode/spiffsgen-wrapper"
+  },
+  "files": [
+    "dist/",
+    "bin/",
+    "src/"
+  ],
+  "keywords": [
+    "spiffsgen",
+    "nodejs",
+    "wrapper",
+    "spiffs",
+    "esp-idf"
+  ],
+  "author": "Prolifode",
+  "license": "MIT",
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
