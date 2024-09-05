@@ -43,7 +43,7 @@ npm install
 Use the pack method to create a SPIFFS image from a directory:
 
 ```typescript
-import SpiffsGen from './src/SpiffsGen';
+import SpiffsGen from 'SpiffsGen';
 
 const spiffsGen = new SpiffsGen();
 
